@@ -3,7 +3,6 @@ class QuestionsController < ApplicationController
   end
   def answer
     @question = params[:question]
-    # @answer = ''
     # @answer = begin
     #   case @question
     #   when "I am going to work" then "Great!"
